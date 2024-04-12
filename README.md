@@ -1,18 +1,18 @@
 # FruitQuest
-# sources
+# Sources
 
-Audio:
+## Audio:
 https://pixabay.com/
-Maps assets:
+## Maps assets:
 https://www.gameart2d.com/
 
-Entities Sprites
-Player:
+## Entities Sprites
+### Player:
 
-Item: 
+### Item: 
 https://ghostpixxells.itch.io/pixel-mart
 https://ghostpixxells.itch.io/pixelfood
-AI:
+### AI:
 
-UI(Buttons/Menu/WinLose Screen):
+### UI(Buttons/Menu/WinLose Screen):
 
