@@ -16,11 +16,12 @@ https://www.gameart2d.com/
 
 ## Entities Sprites
 ### Player:
-
+https://www.gameart2d.com/ninja-adventure---free-sprites.html
 ### Item: 
 https://ghostpixxells.itch.io/pixel-mart  
 https://ghostpixxells.itch.io/pixelfood
 ### AI:
-
+https://www.gameart2d.com/ninja-girl---free-sprites.html
 ### UI(Buttons/Menu/WinLose Screen):
+
 
