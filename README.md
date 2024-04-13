@@ -23,5 +23,9 @@ https://ghostpixxells.itch.io/pixelfood
 ### AI:
 https://www.gameart2d.com/ninja-girl---free-sprites.html
 ### UI(Buttons/Menu/WinLose Screen):
+MainScreen: https://pixabay.com/illustrations/ai-generated-forest-fantasy-glow-8662037/  
+WinScreen: [https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/](https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/)  
+LoseScreen: https://pixabay.com/illustrations/ai-generated-forest-tree-tunnel-7771756/
+
 
 
