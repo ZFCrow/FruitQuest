@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="30" infinite="0" nextlayerid="5" nextobjectid="21">
+ <tileset firstgid="1" name="1" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/1.png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="13" name="2" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/2.png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="3" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/3.png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="5" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/5.png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="49" name="17" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="9" columns="3">
+  <image source="png/Tiles/17.png" trans="ff00ff" width="128" height="99"/>
+ </tileset>
+ <tileset firstgid="58" name="18" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/18.png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="70" name="Crate" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="4" columns="2">
+  <image source="png/Object/Crate.png" trans="ff00ff" width="77" height="77"/>
+ </tileset>
+ <imagelayer id="2" name="Image Layer 1">
+  <image source="png/BG.png" width="1000" height="750"/>
+ </imagelayer>
+ <layer id="1" name="Tile Layer 1" width="25" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,
+0,0,0,0,0,0,0,0,0,0,0,70,71,0,0,0,0,0,0,0,13,14,15,19,20,
+0,0,0,0,0,0,0,0,0,0,0,72,73,0,0,0,0,0,0,0,16,17,18,22,23,
+13,14,15,13,14,15,0,0,0,13,14,15,13,14,15,0,0,13,14,15,19,20,21,37,38,
+16,17,18,16,17,18,0,0,0,16,17,18,16,17,18,0,0,16,17,18,22,23,24,40,41,
+19,20,21,19,20,21,49,50,51,19,20,21,19,20,21,49,50,19,20,21,37,38,39,43,44,
+22,23,24,22,23,24,52,53,54,22,23,24,22,23,24,52,53,22,23,24,40,41,42,46,47,
+37,38,39,37,38,39,55,56,57,37,38,39,37,38,39,55,56,37,38,39,37,38,39,37,38,
+40,41,42,40,41,42,58,59,60,40,41,42,40,41,42,58,59,40,41,42,40,41,42,40,41,
+43,44,45,43,44,45,61,62,63,43,44,45,43,44,45,61,62,43,44,45,43,44,45,43,44,
+46,47,48,46,47,48,64,65,66,46,47,48,46,47,48,64,65,46,47,48,46,47,48,46,47
+</data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="2" name="spawnpoint" x="66.6667" y="331.667" width="27.3333" height="26">
+   <properties>
+    <property name="spawnpoint" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="ground" x="288" y="360" width="145.794" height="237.756">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="ground" x="545" y="360" width="49.8324" height="239.795">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="ground" x="641" y="300.5" width="53.9875" height="299.083">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="9" name="ground" x="736" y="241" width="65.0776" height="357.871">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="ground" x="-4.15512" y="360.457" width="153.74" height="236.842">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="12" name="ground" x="353.186" y="299.169" width="16.6205" height="31.1634">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="13" name="AISpawnpoint1" x="290.859" y="305.402" width="29.0859" height="51.9391">
+   <properties>
+    <property name="AISpawnpoint1" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="14" name="AISpawnpoint2" x="547.438" y="309.557" width="30.1247" height="46.7452">
+   <properties>
+    <property name="AISpawnpoint2" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="16" name="gameOver" x="189.058" y="570.291" width="98.6842" height="48.8227">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="20" name="gameOver" x="484.072" y="573.407" width="60.2493" height="44.6676">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

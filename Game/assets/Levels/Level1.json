@@ -1,0 +1,38 @@
+{
+  "level": 1,
+  "mapPath": "assets/Maps/map1/level1-test.tmx",
+  "items": [
+    {
+      "type": "ICECREAM",
+      "quantity": 3
+    },
+    {
+      "type": "watermelon",
+      "quantity": 0
+    },
+    {
+      "type": "bacon",
+      "quantity": 0
+    }
+  ],
+  "randomItems": {
+    "quantity": 10
+  },
+  "walls": [
+    {
+      "type": "exit",
+      "x": 790,
+      "y": 0,
+      "width": 3,
+      "height": 600
+    },
+    {
+      "type": "leftblock",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 600
+    }
+  ],
+  "scoreToUnlock": 10
+}

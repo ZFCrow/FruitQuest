@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="30" infinite="0" nextlayerid="11" nextobjectid="20">
+ <tileset firstgid="1" name="BG_resized" tilewidth="32" tileheight="30" tilecount="500" columns="25">
+  <image source="png/BG.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="501" name="1" tilewidth="32" tileheight="30" tilecount="16" columns="4">
+  <image source="png/Tiles/1.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="517" name="2" tilewidth="32" tileheight="30" tilecount="16" columns="4">
+  <image source="png/Tiles/2.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="533" name="3" tilewidth="32" tileheight="30" tilecount="16" columns="4">
+  <image source="png/Tiles/3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="549" name="4" tilewidth="32" tileheight="30" tilecount="16" columns="4">
+  <image source="png/Tiles/4.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="565" name="7" tilewidth="32" tileheight="30" tilecount="16" columns="4">
+  <image source="png/Tiles/7.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="581" name="Cactus (1)" tilewidth="32" tileheight="30" tilecount="9" columns="3">
+  <image source="png/Objects/Cactus (1).png" trans="ffaa7f" width="108" height="111"/>
+ </tileset>
+ <tileset firstgid="590" name="Bush (1)" tilewidth="32" tileheight="30" tilecount="8" columns="4">
+  <image source="png/Objects/Bush (1).png" trans="ffaa7f" width="145" height="88"/>
+ </tileset>
+ <tileset firstgid="598" name="SignArrow" tilewidth="32" tileheight="30" tilecount="4" columns="2">
+  <image source="png/Objects/SignArrow.png" trans="ffaa7f" width="84" height="87"/>
+ </tileset>
+ <tileset firstgid="602" name="StoneBlock" tilewidth="32" tileheight="30" tilecount="9" columns="3">
+  <image source="png/Objects/StoneBlock.png" trans="ffaa7f" width="101" height="99"/>
+ </tileset>
+ <tileset firstgid="611" name="Grass (1)" tilewidth="32" tileheight="30" tilecount="3" columns="3">
+  <image source="png/Objects/Grass (1).png" trans="ffaa7f" width="102" height="50"/>
+ </tileset>
+ <tileset firstgid="614" name="Bush (2)" tilewidth="32" tileheight="30" tilecount="8" columns="4">
+  <image source="png/Objects/Bush (2).png" trans="ffaa7f" width="131" height="74"/>
+ </tileset>
+ <imagelayer id="9" name="Image Layer 1">
+  <image source="png/BG.png" width="800" height="600"/>
+ </imagelayer>
+ <layer id="1" name="Tile Layer 1" width="25" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,611,612,613,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,502,503,504,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,602,603,604,0,0,0,506,507,508,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,605,606,607,0,0,0,550,551,552,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,608,609,610,0,0,0,554,555,556,0,0,0,0,0,
+0,0,0,0,598,599,0,0,0,0,517,566,567,568,0,0,0,558,559,560,0,0,0,0,0,
+0,0,0,0,600,601,0,0,0,0,550,551,551,552,0,0,0,562,563,564,0,0,0,0,0,
+501,502,503,504,533,534,535,0,0,0,550,559,555,556,0,0,0,550,551,552,0,517,518,519,520,
+505,506,507,508,537,538,539,0,0,0,554,563,564,564,0,0,0,554,555,556,0,521,522,523,524,
+509,510,511,512,541,542,543,0,0,0,558,559,560,560,0,0,0,558,559,560,0,525,526,527,528,
+513,514,515,516,545,546,547,0,0,0,562,563,564,564,0,0,0,562,563,564,0,529,530,531,532
+</data>
+ </layer>
+ <objectgroup id="6" name="Object Layer 1">
+  <object id="5" name="spawnpoint" x="69.0582" y="456.167" width="21.1758" height="20.5083">
+   <properties>
+    <property name="spawnpoint" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="ground" x="-3.66667" y="480" width="180.137" height="119.374">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="9" name="ground" x="320" y="419.333" width="84.6386" height="178.905">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="10" name="ground" x="543.667" y="300" width="51.6384" height="304.471">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="ground" x="672" y="480.333" width="127.662" height="120.378">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="13" name="ground" x="352" y="330.667" width="51.6384" height="44.3046">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="14" name="AISpawnpoint1" x="539.448" y="250.13" width="27.5143" height="43.3559">
+   <properties>
+    <property name="AISpawnpoint1" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="17" name="AISpawnpoint2" x="672.85" y="431.058" width="30.0156" height="45.0234">
+   <properties>
+    <property name="AISpawnpoint2" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="18" name="gameOver" x="215.946" y="566.962" width="105.888" height="45.0234">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="19" name="gameOver" x="446.066" y="566.962" width="98.3846" height="47.5248">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

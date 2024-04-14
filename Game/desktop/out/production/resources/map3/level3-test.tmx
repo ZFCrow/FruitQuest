@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="30" infinite="0" nextlayerid="7" nextobjectid="26">
+ <tileset firstgid="1" name="Tile (1)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (1).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="13" name="Tile (2)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (2).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="Tile (3)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (3).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="Tile (16)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (16).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="49" name="ArrowSign" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="4" columns="2">
+  <image source="png/Objects/ArrowSign.png" trans="ff00ff" width="86" height="87"/>
+ </tileset>
+ <tileset firstgid="53" name="Tile (15)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (15).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="Tile (14)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (14).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="77" name="Tile (7)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (7).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="89" name="DeadBush" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="8" columns="4">
+  <image source="png/Objects/DeadBush.png" trans="ff00ff" width="132" height="74"/>
+ </tileset>
+ <tileset firstgid="97" name="Skeleton" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="3" columns="3">
+  <image source="png/Objects/Skeleton.png" trans="ff00ff" width="102" height="50"/>
+ </tileset>
+ <tileset firstgid="100" name="Tile (11)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (11).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="112" name="Tile (4)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (4).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="124" name="Tile (13)" tilewidth="32" tileheight="30" spacing="1" margin="1" tilecount="12" columns="3">
+  <image source="png/Tiles/Tile (13).png" trans="ff00ff" width="128" height="128"/>
+ </tileset>
+ <imagelayer id="2" name="Image Layer 1">
+  <image source="png/BG.png" width="800" height="600"/>
+ </imagelayer>
+ <layer id="1" name="Tile Layer 1" width="25" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,98,99,51,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,66,66,54,55,39,39,39,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,69,70,58,58,40,41,42,
+0,0,0,0,0,0,0,0,0,0,1,77,77,77,79,0,0,0,72,73,59,60,43,44,45,
+0,0,0,0,0,0,0,0,0,0,4,80,80,80,82,0,0,0,0,0,0,0,0,0,0,
+1,2,2,2,2,2,2,27,0,0,7,81,81,81,82,0,0,0,0,0,0,0,0,0,0,
+16,5,6,16,16,16,16,17,0,0,7,82,82,82,82,0,0,0,0,0,0,0,0,0,0,
+16,8,6,19,19,19,19,19,0,0,7,84,84,83,85,0,0,0,0,0,0,0,0,0,0,
+16,8,9,19,19,19,19,20,0,0,7,84,84,84,85,0,0,0,0,0,0,89,90,91,92,
+16,11,12,23,24,23,22,23,0,0,10,87,87,87,87,97,98,99,0,0,0,93,94,95,96
+</data>
+ </layer>
+ <objectgroup id="6" name="Object Layer 1">
+  <object id="5" name="spawnpoint" x="78.1657" y="413.757" width="30.2241" height="33.3507">
+   <properties>
+    <property name="spawnpoint" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="ground" x="2.08442" y="448.15" width="207.4" height="154.097">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="ground" x="319.958" y="387.702" width="114.643" height="213.224">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="ground" x="538.822" y="330.38" width="261.595" height="89.0552">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="17" name="ground" x="648.254" y="291.819" width="38.5617" height="37.5195">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="19" name="AISpawnpoint1" x="380.38" y="337.676" width="32.3085" height="42.7306">
+   <properties>
+    <property name="AISpawnpoint1" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="20" name="AISpawnpoint1" x="600.3" y="286.608" width="31.2663" height="40.6462">
+   <properties>
+    <property name="AISpawnpoint1" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="21" name="gameOver" x="258.468" y="573.215" width="59.4059" height="32.3085">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="22" name="gameOver" x="577.384" y="569.046" width="90.6722" height="37.5195">
+   <properties>
+    <property name="gameOver" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="24" name="ground" x="474.667" y="539.667" width="66.3333" height="28.6667">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="25" name="ground" x="674.667" y="499.333" width="123" height="41">
+   <properties>
+    <property name="ground" type="object" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
