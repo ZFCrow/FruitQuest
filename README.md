@@ -1,5 +1,9 @@
 # FruitQuest
-# Sources
+
+## UML Diagram
+![FULL GAME UML DESIGN](https://github.com/ZFCrow/FruitQuest/assets/113918404/115d76d3-40be-44d1-978f-d1563ff9e2c9)  
+
+## Acknowledgement of Sources
 
 ## Audio:
 https://pixabay.com/  
@@ -27,7 +31,7 @@ https://www.gameart2d.com/ninja-girl---free-sprites.html
 MainScreen: https://pixabay.com/illustrations/ai-generated-forest-fantasy-glow-8662037/  
 WinScreen: [https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/](https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/)  
 LoseScreen: https://pixabay.com/illustrations/ai-generated-forest-tree-tunnel-7771756/  
-Buttons: Itch.Io
+Buttons: Buttons sourced from Itch.io; specific creator details to be updated upon verification.
 
 
 
