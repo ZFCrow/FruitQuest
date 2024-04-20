@@ -8,9 +8,11 @@ The game is developed using the Libgdx framework for Java as it aligns well with
 ## UML Diagram
 ![FULL GAME UML DESIGN](https://github.com/ZFCrow/FruitQuest/assets/113918404/115d76d3-40be-44d1-978f-d1563ff9e2c9)  
 
-## Acknowledgement of Sources
+## Copyright Disclaimer
+This project is not endorsed or affiliated with any brand or trademark that might be implied by the game's content. The 'Fruit Quest' game is a free, educational project developed for non-commercial use. While we have made every effort to secure appropriate licenses and acknowledge the sources of all assets used in this game, some assets' origins remain uncertain.
 
-## Audio:
+## Acknowledgement of Sources
+### Audio:
 https://pixabay.com/  
 - loadingMusic : https://pixabay.com/music/upbeat-fun-kids-playful-comic-carefree-game-happy-positive-music-57026/  
 - music: https://pixabay.com/music/ambient-midnight-forest-184304/  
@@ -21,18 +23,19 @@ https://pixabay.com/
 - win: https://pixabay.com/sound-effects/cute-level-up-3-189853/  
 - lose: https://pixabay.com/sound-effects/fail-144746/
 
-## Maps assets:
+### Maps assets:
 - https://www.gameart2d.com/
 
-## Entities Sprites
-### Player:
+### Entities Sprites
+#### Player:
 - https://www.gameart2d.com/ninja-adventure---free-sprites.html
-### Item: 
+#### Item: 
 - https://ghostpixxells.itch.io/pixel-mart  
 - https://ghostpixxells.itch.io/pixelfood
-### AI:
+#### AI:
 - https://www.gameart2d.com/ninja-girl---free-sprites.html
-## UI(Buttons/Menu/WinLose Screen):
+  
+### UI(Buttons/Menu/WinLose Screen):
 - MainScreen: https://pixabay.com/illustrations/ai-generated-forest-fantasy-glow-8662037/  
 - WinScreen: [https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/](https://pixabay.com/illustrations/home-forest-mountain-summer-spring-7675773/)  
 - LoseScreen: https://pixabay.com/illustrations/ai-generated-forest-tree-tunnel-7771756/  
